@@ -106,6 +106,6 @@ if __name__ == "__main__":
         "B": {"1": 0.92, "44": 0.5, "46": 0.2, "467": 1.0, "48": 1.2},
     }
 
-    phone_number = "46732000000"
+    phone_number = "461000000"
     solution = FindOperator(operator_price_dict)
     print(solution.find_lowest_price(phone_number))
